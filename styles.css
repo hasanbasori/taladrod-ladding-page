@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+}
+
+body {
+  background-image: url('./assets/images/backgroundImage.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  backdrop-filter: blur(4px);
+  background: linear-gradient(180deg, #1b1b1a -5, rgba(27, 27, 26, 0) 100%);
+}
+
+header {
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 24px 10px 24px;
+  position: fixed;
+  backdrop-filter: blur(2px);
+  background: linear-gradient(180deg, #1b1b1a -7.14%, rgba(27, 27, 26, 0) 100%);
+}
+
+.menu-icon :first-child {
+  height: 36px;
+  width: 36px;
+}
+
+section {
+  display: flex;
+  color: #eaeaea;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+.first-section {
+  padding-top: 170px;
+}
+
+.content-first-section {
+  display: flex;
+  font-size: 32px;
+  font-weight: 400;
+  flex-direction: column;
+  align-items: center;
+  font-style: normal;
+  margin-bottom: -40px;
+}
+
+.content-first-section :nth-child(2) {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  margin: -25px;
+}
+
+.content-first-section :nth-child(3) {
+  font-weight: 500;
+}
+
+.download-tab {
+  display: flex;
+  align-items: center;
+  margin-bottom: 190px;
+  margin-top: 5px;
+}
+
+.second-section {
+  font-size: 18px;
+  width: 244px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: -185px;
+}
+
+.second-section > div > div > p {
+  color: #b9b9b9;
+  font-family: Kanit;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.content-second-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 143px;
+}
+.content-second-section p {
+  margin-top: 0px;
+}
+
+.content-second-section-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-second-section-bottom :first-child,
+.content-second-section-bottom :last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+.content-second-section-bottom > div p,
+.content-second-section-bottom p:nth-child(3) {
+  color: #ececec !important;
+  margin-top: 12px;
+}
+
+.content-second-section-bottom > div:first-child > p {
+  margin: 0px;
+}
+.content-second-section-bottom span img {
+  width: 24px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.content-second-section-bottom > p {
+  color: #b9b9b9;
+  font-size: 18px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.content-second-section-bottom :nth-child(3) {
+  font-size: 24px;
+}
+
+.third-section * {
+  margin: 0;
+}
+.third-section {
+  margin-bottom: -185px;
+}
+
+.third-section :first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third-section > div > p:first-child {
+  font-weight: 500;
+  line-height: 40px;
+  font-size: 24px;
+}
+
+.third-section > div > p:nth-child(2) {
+  font-size: 18px;
+  color: #b9b9b9;
+  margin-bottom: 24px;
+}
+
+.third-section > div > div {
+  display: flex;
+}
+.third-section > div > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.third-section > div > div > div > p:nth-child(1) {
+  font-size: 25px;
+}
+
+.third-section > div > div > div > p:nth-child(2) {
+  font-size: 12px;
+}
+
+.third-section-top > div > img {
+  box-shadow: rgba(185, 185, 185, 0.3) 0px 1px 25px;
+  border-radius: 15px;
+}
+
+.third-section-bottom {
+  margin-top: 130px;
+}
+.third-section-bottom > p {
+  font-size: 24px;
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+footer {
+  font-size: 10px;
+  background-color: rgba(30, 30, 30);
+  height: 38px;
+  color: #eaeaea;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  backdrop-filter: blur(10px);
+}
+
+footer :first-child {
+  width: 7px;
+  margin-right: 3.6px;
+}
