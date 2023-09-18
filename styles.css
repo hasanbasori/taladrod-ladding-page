@@ -44,6 +44,7 @@ section {
 }
 .first-section {
   padding-top: 170px;
+  height: 100vh;
 }
 
 .content-first-section {
@@ -81,6 +82,7 @@ section {
   align-items: center;
   width: 100%;
   margin-bottom: 185px;
+  margin-top: 80px;
 }
 
 .second-section > div > div > p {
@@ -96,10 +98,10 @@ section {
 .content-second-section {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 143px;
 }
 .content-second-section p {
   margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .content-second-section-bottom {
@@ -107,7 +109,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 185px;
+  margin-top: 143px;
 }
 
 .content-second-section-bottom :first-child,
@@ -204,23 +206,54 @@ third-section-bottom {
   font-weight: 500;
 }
 
-footer {
-  position: fixed;
-  font-size: 10px;
-  background-color: rgba(30, 30, 30);
-  height: 38px;
-  color: #eaeaea;
-  text-align: center;
-  padding: 10px 0;
-  bottom: 0px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  backdrop-filter: blur(10px);
+.animated.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-footer :first-child {
-  width: 7px;
-  margin-right: 3.6px;
+.animated.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  /* animation-play-state: paused; */
+  animation-delay: calc(var(--scroll) * 1s);
+}
+
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
 }
