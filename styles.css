@@ -68,6 +68,20 @@ header {
   margin-bottom: 80px;
 }
 
+.special-text {
+  font-size: 32px;
+  color: white;
+  position: relative;
+}
+
+.special-text::before {
+  content: '*';
+  position: absolute;
+  top: -10px;
+  left: 58%;
+  transform: translateX(-50%);
+  color: #b9b9b9;
+}
 .first-child,
 .last-child {
   font-size: 18px;
@@ -77,11 +91,12 @@ header {
   color: var(--neutral-surface-strong, #535353) !important;
 }
 .first-section-bottom span {
-  color: var(--neutral-border-primary, rgba(239, 118, 42, 0.45)) !important;
+  color: rgba(239, 118, 42, 0.45) !important;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 48px;
+  margin: 0 10px;
 }
 
 .first-section-bottom p {
@@ -153,23 +168,6 @@ a {
   margin: 0px;
   color: #b9b9b9;
 }
-
-.special-text {
-  font-size: 32px;
-  color: white;
-  position: relative;
-}
-
-.special-text::before {
-  content: '*';
-  position: absolute;
-  top: -10px;
-  left: 58%;
-  transform: translateX(-50%);
-  color: #b9b9b9;
-}
-
-
 
 .animated.fade-in {
   opacity: 0;
