@@ -19,14 +19,14 @@ section {
 .container {
   backdrop-filter: blur(5px);
   background: linear-gradient(180deg, #1b1b1a -5, rgba(27, 27, 26, 0) 100%);
-  padding-top: 120px;
+  padding-top: 130px;
 }
 
 .first-section,
 .second-section,
 .third-section {
   display: flex;
-  justify-content: centeßr;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   margin-bottom: 80px;
