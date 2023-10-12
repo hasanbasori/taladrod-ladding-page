@@ -127,9 +127,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.background {
   position: relative;
   background-image: url('./assets/images/backgroundImgBlur.svg');
   box-sizing: border-box;
@@ -139,6 +136,7 @@ body {
   background-size: cover;
   overflow: hidden;
 }
+
 .background-blur {
   position: absolute;
   overflow: hidden;
