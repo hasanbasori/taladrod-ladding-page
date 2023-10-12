@@ -133,13 +133,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
   overflow: hidden;
 }
 
 .background-blur {
   position: absolute;
   overflow: hidden;
+  margin-bottom: 100px;
 }
 
 /* Section 1 */
