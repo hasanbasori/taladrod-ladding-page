@@ -136,29 +136,30 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
 }
 .background-blur {
   position: absolute;
+  overflow: hidden;
 }
 
 /* Section 1 */
 
-.sectionOne-express-header {
- 
+.header {
   justify-content: center;
   display: flex;
   gap: 20px;
 }
 
-.header-express-text{
+.header-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-
 }
 
-/* Section 2 */
-.sectionTwo {
+/* body-selling-step 2 */
+.body-selling-step {
   margin-top: 20px;
   width: 100vw;
   padding-left: 15px;
@@ -166,13 +167,13 @@ body {
 
 /* step 1 */
 
-.sectionTwo-stepOne {
+.form-stepOne {
   gap: 68px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.sectionTwo-stepOne-enterTelephone-box {
+.form-stepOne-input {
   background-color: #2d2d2d;
   display: flex;
   padding-left: 15px;
@@ -184,7 +185,7 @@ body {
   margin-right: -10px;
 }
 
-.sectionTwo-stepOne-enterTelephone-text {
+.form-stepOne-text {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -192,14 +193,14 @@ body {
 }
 
 /* step 2 */
-.sectionTwo-stepTwo {
+.form-stepTwo {
   padding-left: 11px;
   gap: 68px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.sectionTwo-stepTwo-carImage-box {
+.form-stepTwo-input {
   background-color: #2d2d2d;
   display: flex;
   align-items: center;
@@ -212,14 +213,14 @@ body {
 
 /* step 3 */
 
-.sectionTwo-stepThree {
+.form-stepThree {
   padding-left: 60px;
   gap: 68px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.sectionTwo-stepThree-carBook-box {
+.form-stepThree-carBook-input {
   background-color: #2d2d2d;
   display: flex;
   align-items: center;
@@ -232,14 +233,14 @@ body {
 
 /* Step 4 */
 
-.sectionTwo-stepFour {
+.form-stepFour {
   padding-left: 76px;
   gap: 68px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.sectionTwo-stepFour-sellPrice-box {
+.form-stepFour-input {
   background-color: #2d2d2d;
   display: flex;
   padding-left: 15px;
@@ -249,16 +250,16 @@ body {
   border-radius: 12px;
 }
 
-.sectionTwo-stepFour-sellPrice-text {
+.form-stepFour-input-text {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
 }
 
-/* Section 3 */
+/* footer  */
 
-.sectionThree {
+.footer {
   display: flex;
   flex-direction: column;
   margin-top: 95px;
@@ -266,7 +267,7 @@ body {
   align-items: center;
 }
 
-.button-sell {
+.sell-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -276,7 +277,13 @@ body {
   border-radius: 16px;
 }
 
-.sectionFour-sell-text {
+.button-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.footer-text {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
