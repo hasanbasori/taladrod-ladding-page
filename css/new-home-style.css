@@ -1,0 +1,374 @@
+.grey-50 {
+  color: #fafafa;
+}
+.grey-100 {
+  color: #ececec;
+}
+.grey-150 {
+  color: #dfdfdf;
+}
+.grey-200 {
+  color: #d2d2d2;
+}
+.grey-250 {
+  color: #b9b9b9;
+}
+.grey-300 {
+  color: #acacac;
+}
+.grey-350 {
+  color: #9f9f9f;
+}
+.grey-400 {
+  color: #939393;
+}
+.grey-450 {
+  color: #868686;
+}
+.grey-500 {
+  color: #797979;
+}
+.grey-550 {
+  color: #6c6c6c;
+}
+.grey-600 {
+  color: #606060;
+}
+.grey-650 {
+  color: #535353;
+}
+.grey-700 {
+  color: #464646;
+}
+.grey-750 {
+  color: #393939;
+}
+.grey-800 {
+  color: #2d2d2d;
+}
+.grey-850 {
+  color: #202020;
+}
+.grey-900 {
+  color: #1b1b1a;
+}
+.green-400 {
+  color: #6fcf97;
+}
+.green-500 {
+  color: #27ae60;
+}
+.green-600 {
+  color: #219653;
+}
+.natural-black {
+  color: #060606;
+}
+.natural-white {
+  color: #ffffff;
+}
+.yellow-500 {
+  color: #f2c94c;
+}
+.orange-45 {
+  color: rgba(239, 118, 42, 0.45);
+}
+.orange-100 {
+  color: #fdf0e7;
+}
+.orange-200 {
+  color: #fad1b8;
+}
+.orange-300 {
+  color: #f6b389;
+}
+.orange-400 {
+  color: #f29459;
+}
+.orange-500 {
+  color: #ef782d;
+}
+.orange-600 {
+  color: #d55c10;
+}
+.orange-700 {
+  color: #a6480d;
+}
+.orange-800 {
+  color: #763309;
+}
+.orange-900 {
+  color: #471f05;
+}
+.blue-400 {
+  color: #8ab7f5;
+}
+.blue-500 {
+  color: #5b9bf1;
+}
+.blue-600 {
+  color: #2f80ed;
+}
+.red-400 {
+  color: #eb5757;
+}
+.red-500 {
+  color: #ec222a;
+}
+.red-600 {
+  color: #a40101;
+}
+
+/* Background Color */
+
+.bg-grey-50 {
+   background-color: #fafafa;
+ }
+ .bg-grey-100 {
+   background-color: #ececec;
+ }
+ .bg-grey-150 {
+   background-color: #dfdfdf;
+ }
+ .bg-grey-200 {
+   background-color: #d2d2d2;
+ }
+ .bg-grey-250 {
+   background-color: #b9b9b9;
+ }
+ .bg-grey-300 {
+   background-color: #acacac;
+ }
+ .bg-grey-350 {
+   background-color: #9f9f9f;
+ }
+ .bg-grey-400 {
+   background-color: #939393;
+ }
+ .bg-grey-450 {
+   background-color: #868686;
+ }
+ .bg-grey-500 {
+   background-color: #797979;
+ }
+ .bg-grey-550 {
+   background-color: #6c6c6c;
+ }
+ .bg-grey-600 {
+   background-color: #606060;
+ }
+ .bg-grey-650 {
+   background-color: #535353;
+ }
+ .bg-grey-700 {
+   background-color: #464646;
+ }
+ .bg-grey-750 {
+   background-color: #393939;
+ }
+ .bg-grey-800 {
+   background-color: #2d2d2d;
+ }
+ .bg-grey-850 {
+   background-color: #202020;
+ }
+ .bg-grey-900 {
+   background-color: #1b1b1a;
+ }
+ .bg-green-400 {
+   background-color: #6fcf97;
+ }
+ .bg-green-500 {
+   background-color: #27ae60;
+ }
+ .bg-green-600 {
+   background-color: #219653;
+ }
+ .bg-natural-black {
+   background-color: #060606;
+ }
+ .bg-natural-white {
+   background-color: #ffffff;
+ }
+ .bg-yellow-500 {
+   background-color: #f2c94c;
+ }
+ .bg-orange-45 {
+   background-color: rgba(239, 118, 42, 0.45);
+ }
+ .bg-orange-100 {
+   background-color: #fdf0e7;
+ }
+ .bg-orange-200 {
+   background-color: #fad1b8;
+ }
+ .bg-orange-300 {
+   background-color: #f6b389;
+ }
+ .bg-orange-400 {
+   background-color: #f29459;
+ }
+ .bg-orange-500 {
+   background-color: #ef782d;
+ }
+ .bg-orange-600 {
+   background-color: #a40101;
+ }
+ .bg-orange-700 {
+   background-color: #a6480d;
+ }
+ .bg-orange-800 {
+   background-color: #763309;
+ } /* Fixed a typo in class name */
+ .bg-orange-900 {
+   background-color: #471f05;
+ }
+ .bg-blue-400 {
+   background-color: #8ab7f5;
+ }
+ .bg-blue-500 {
+   background-color: #5b9bf1;
+ }
+ .bg-blue-600 {
+   background-color: #2f80ed;
+ }
+ .bg-red-600 {
+   background-color: #a40101;
+ }
+ 
+
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden; /* Hide default scrollbar */
+}
+
+.new-home {
+  padding: 5%;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* Place the background behind the content */
+  background-image: url('../images/newhome/bg-home.png');
+  background-size: cover;
+  overflow: auto;
+}
+
+.header-logo {
+  width: 20%;
+}
+.new-header {
+  padding: 5%;
+}
+.cover-filter {
+  flex-wrap: wrap;
+}
+.new-filter-box {
+  padding: 4%;
+  width: 44%;
+}
+.faded-btn {
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.daily-report {
+  margin-top: 32%;
+}
+.car-daily {
+  padding: 3% 0%;
+}
+.finance-arrangement {
+  padding: 4% 0%;
+}
+.download-btn {
+  padding: 15% 0% 20% 0%;
+}
+.navbar-collapse {
+  top: 0px;
+  padding-top: 20%;
+  height: 100vh !important;
+  overflow: hidden;
+  background: transparent;
+}
+.a-none {
+  text-decoration: none;
+}
+.nav-link {
+  padding-left: 5%;
+  padding-top: 6%;
+}
+#firstmenu .nav-item {
+  font-size: 24px;
+  font-family: 'kanit-medium' !important;
+}
+#secondmenu .nav-item {
+  font-size: 20px;
+  font-family: 'kanit-medium' !important;
+}
+
+#servicecontent .nav-item {
+  font-size: 20px;
+  font-family: 'kanit-medium' !important;
+}
+.coverpage {
+  z-index: 3;
+}
+.new-footer {
+  position: absolute;
+  z-index: 99;
+  top: 85vh;
+  width: 100%;
+  padding: 0% 7% 0% 7%;
+}
+.coverpage {
+  top: 0px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity here */
+  backdrop-filter: blur(4px); /* Adjust blur amount here */
+  -webkit-backdrop-filter: blur(4px);
+}
+.navbar-content {
+  padding: 22% 5% 3% 5%;
+  position: absolute !important;
+  z-index: 99;
+  width: 100%;
+}
+.profile-new-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.img-in-filter {
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+  overflow: hidden;
+}
+
+.img-in-filter img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.filter-gray250 {
+  filter: brightness(0%) saturate(100%) invert(73%) sepia(0%) saturate(5930%)
+    hue-rotate(31deg) brightness(102%) contrast(94%);
+}

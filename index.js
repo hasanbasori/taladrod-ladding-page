@@ -1,40 +1,19 @@
-function isElementInViewport(el) {
-  const rect = el.getBoundingClientRect();
-  return (
-    rect.top >= 0 &&
-    rect.left >= 0 &&
-    rect.bottom <=
-      (window.innerHeight || document.documentElement.clientHeight) &&
-    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-  );
-}
+let modal = document.getElementById('salesRuleModal');
 
-window.addEventListener('scroll', () => {
-  const elementsToAnimate = document.querySelectorAll('.animated.fade-in');
+let btn = document.getElementById('salesRuleClick');
 
-  elementsToAnimate.forEach((element) => {
-    if (isElementInViewport(element)) {
-      element.classList.add('active');
-    }
-  });
-});
+let span = document.getElementsByClassName('closeicon')[0];
 
-window.addEventListener('load', () => {
-  const elementsToAnimate = document.querySelectorAll('.animated.fade-in');
+btn.onclick = function () {
+  modal.style.display = 'block';
+};
 
-  elementsToAnimate.forEach((element) => {
-    if (isElementInViewport(element)) {
-      element.classList.add('active');
-    }
-  });
-});
+span.onclick = function () {
+  modal.style.display = 'none';
+};
 
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth',
-  });
-}
-
-window.addEventListener('load', scrollToTop);
-
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = 'none';
+  }
+};
