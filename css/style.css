@@ -2722,7 +2722,7 @@ input[name='radioGroup']:checked + label {
 .modal {
   display: none;
   z-index: 1;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .modal-content {
