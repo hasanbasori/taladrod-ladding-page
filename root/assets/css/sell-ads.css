@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit', sans-serif;
+  font-style: normal;
+  position: relative;
+  background-image: url('../images/backgroundImage.svg');
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+section {
+  padding-bottom: 150px;
+}
+
+.container {
+  backdrop-filter: blur(5px);
+  background: linear-gradient(180deg, #1b1b1a -5, rgba(27, 27, 26, 0) 100%);
+  padding-top: 130px;
+}
+
+.first-section,
+.second-section,
+.third-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+header {
+  top: 0px;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 24px 10px 24px;
+  position: fixed;
+  backdrop-filter: blur(2px);
+  background: linear-gradient(180deg, #1b1b1a -7.14%, rgba(27, 27, 26, 0) 100%);
+  z-index: 100;
+}
+
+.first-section-top > * {
+  font-size: 32px;
+  margin: 5px;
+}
+
+.first-section-top {
+  margin-bottom: 80px;
+}
+
+.first-section-bottom {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+}
+.first-section-bottom > * {
+  margin: 0;
+}
+.first-section {
+  margin-bottom: 80px;
+}
+
+.special-text {
+  font-size: 32px;
+  color: white;
+  position: relative;
+}
+
+.special-text::before {
+  content: '*';
+  position: absolute;
+  top: -10px;
+  left: 58%;
+  transform: translateX(-50%);
+  color: #b9b9b9;
+}
+.first-child,
+.last-child {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--neutral-surface-strong, #535353) !important;
+}
+.first-section-bottom span {
+  color: rgba(239, 118, 42, 0.45) !important;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  margin: 0 10px;
+}
+
+.first-section-bottom p {
+  color: #ececec;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.button {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  width: 278px;
+  border-radius: 16px;
+  background: rgba(239, 118, 42, 0.45);
+  color: #ececec;
+}
+
+a {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  color: var(--neutral-surface-strong, #535353) !important;
+}
+
+.third-section-first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 75px;
+}
+
+.third-section-second-child {
+  /* margin: 0; */
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.third-section-second-child > * {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #b9b9b9;
+  margin: 0px;
+}
+
+.fourth-section {
+  display: flex;
+  flex: 1;
+  width: 100vw;
+  padding-left: 15px;
+}
+
+.fourth-section-top > * {
+  font-family: Kanit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0px;
+  color: #b9b9b9;
+}
+
+.animated.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.animated.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  /* animation-play-state: paused; */
+  animation-delay: calc(var(--scroll) * 1s);
+}
+
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
