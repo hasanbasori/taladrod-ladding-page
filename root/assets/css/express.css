@@ -1,0 +1,197 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+
+.background-blur {
+  background-image: url('../images/backgroundImgBlur.svg');
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  object-fit: cover;
+  height: 100vh;
+}
+
+.background-blur {
+  position: absolute;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+/* Section 1 */
+
+.header {
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
+.header-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* body-selling-step 2 */
+.body-selling-step {
+  margin-top: 20px;
+  width: 100vw;
+  padding-left: 15px;
+}
+
+/* step 1 */
+
+.form-stepOne {
+  gap: 68px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-stepOne-input {
+  background-color: #2d2d2d;
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  margin-right: -10px;
+}
+
+.form-stepOne-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+/* step 2 */
+.form-stepTwo {
+  padding-left: 11px;
+  gap: 68px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-stepTwo-input {
+  background-color: #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  margin-right: -10px;
+}
+
+/* step 3 */
+
+.form-stepThree {
+  padding-left: 60px;
+  gap: 68px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-stepThree-input {
+  background-color: #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  margin-right: -10px;
+}
+
+/* Step 4 */
+
+.form-stepFour {
+  padding-left: 76px;
+  gap: 68px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-stepFour-input {
+  background-color: #2d2d2d;
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  width: 100%;
+  height: 48px;
+  border-radius: 12px;
+}
+
+.form-stepFour-input-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+/* footer  */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 95px;
+  width: 100vw;
+  align-items: center;
+}
+
+.sell-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 168px;
+  height: 40px;
+  background-color: rgba(239, 118, 42, 0.45);
+  border-radius: 16px;
+}
+
+.button-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.footer-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* Modal */
+
+.mgt-40 {
+  margin-top: 40px;
+}
+
+.closeicon {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  right: 15px;
+  top: 15px;
+}
+
+.express-modal {
+  display: none;
+  z-index: 1;
+  overflow: scroll;
+}
+
+.express-modal-content {
+  margin: auto;
+  padding: 40px;
+  width: 80%;
+  height: 100%;
+}
