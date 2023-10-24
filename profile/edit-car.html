@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../assets/css/stylesheet.css" />
+    <link rel="stylesheet" href="../assets/css/slider-bar.css" />
+
+    <title>Document</title>
+  </head>
+  <body class="h-auto bg-grey-900 h-100vh overflow-scroll">
+    <nav class="flex w-100p flex-center mgr-20 mgl-20 align-center gap-10">
+      <p class="fontnormal-16 grey-700">ลงขายอยู่</p>
+      <p class="fontnormal-16 grey-700">/</p>
+      <p class="fontnormal-16 natural-white">14’ ALMERA</p>
+    </nav>
+
+    <div class="bg-grey-900 mgr-20 mgl-20 mgt-40">
+      <div>
+        <p class="mg-0 grey-250 fontnormal-20">2014 ALMERA [A]</p>
+        <p class="mg-0 grey-250 fontnormal-20">Nissan Almera 1.2V ปี 2014</p>
+        <p class="mg-0 grey-250 fontnormal-20">สีบรอนซ์เงิน</p>
+      </div>
+      <section class="flex flex-between mgt-20">
+        <div class="w-180 h-140 radius-24 mg-0 overflow-hidden">
+          <img
+            class="w-100p h-auto"
+            src="../assets/images/front-car.svg"
+            alt=""
+          />
+        </div>
+        <div class="gap-40 align-center flex-center">
+          <div class="fontnormal-18 grey-100 mgb-20">530,000 บาท</div>
+          <div class="w-100p pdl-16">
+            <p class="grey-250 fontnormal-14 mg-3">081-656-0409</p>
+            <p class="grey-250 fontnormal-14 mg-3">081-656-0409</p>
+            <p class="grey-250 fontnormal-14 mg-3">081-656-0409</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-grey-750 mgt-40 radius-24 pd-15">
+        <div class="fontnormal-14 grey-250">สถานะโพสต์</div>
+
+        <div class="w-100p mgt-20 flex flex-center mgt-10">
+          <!-- <img src="../assets/images/Prgess-bar.svg" alt="" /> -->
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="10"
+            class="slider"
+            id="myRange"
+          />
+        </div>
+
+        <div class="flex mgt-20 pd-3 w-100p flex-between">
+          <div class="flex flex-column align-center">
+            <p class="mg-0 grey-100 fontnormal-18">ลงขายอยู่</p>
+
+            <p class="mg-0 grey-100 fontnormal-14">(เปิดเบอร์)</p>
+          </div>
+          <div class="flex flex-column align-center">
+            <p class="mg-0 grey-550 fontnormal-16">จองแล้ว</p>
+            <p class="mg-0 grey-550 fontnormal-14">(ปิดเบอร์)</p>
+          </div>
+          <div class="flex flex-column align-center">
+            <p class="mg-0 grey-550 fontnormal-16">ขายแล้ว</p>
+            <p class="mg-0 grey-550 fontnormal-14">ลบโพสต์</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-100p h-100p mgt-40">
+        <div><p class="fontnormal-20 grey-100">เพิ่มข้อมูล</p></div>
+
+        <div id="openAddInfo">
+          <div class="flex gap-10 w-100p align-center">
+            <div
+              class="w-88 h-90 radius-24 bg-grey-800 flex flex-center align-center"
+            >
+              <img src="../assets/icons/location.svg" alt="" />
+            </div>
+            <p class="fontnormal-18 w-150 grey-250">เพิ่มรายละเอียด</p>
+          </div>
+        </div>
+
+        <!-- add info toggle   -->
+
+        <div class="w-100p display-none" id="inFoContent">
+          <div class="flex flex-between">
+            <p class="fontnormal-20 grey-250">เลขไมล์</p>
+            <img
+              id="closeAddInfo"
+              src="../assets/icons/closeIcon.svg"
+              alt="closeIcon"
+            />
+          </div>
+          <div
+            class="w-90p bg-grey-800 h-48 flex flex-between pdl-16 pdr-16 radius-16"
+          >
+            <p class="grey-700">999,999</p>
+            <p class="grey-250">km</p>
+          </div>
+
+          <div>
+            <p class="fontnormal-20 grey-250">สถานที่นัดดูรถ</p>
+            <div
+              class="w-90p bg-grey-800 h-48 flex flex-between align-center pdl-16 pdr-16 radius-16"
+            >
+              <p class="grey-700">จังหวัด</p>
+              <img class="w-24" src="../assets/icons/dropdownIcon.svg" alt="" />
+            </div>
+            <div
+              class="w-90p mgt-10 bg-grey-800 h-48 flex flex-between pdl-16 pdr-16 radius-16"
+            >
+              <p class="grey-700">ที่นัดพบ (เช่น เมกาบางนา)</p>
+            </div>
+          </div>
+        </div>
+
+        <!--  end add info toggle   -->
+
+        <div id="openAddPic">
+          <div class="flex gap-10 mgt-20 align-center">
+            <div
+              class="w-88 h-90 radius-24 bg-grey-800 flex flex-center align-center"
+            >
+              <img src="../assets/icons/photo-upload.svg" alt="" />
+            </div>
+            <p class="fontnormal-18 grey-250">เพิ่มรูป</p>
+          </div>
+        </div>
+
+        <!-- uoload Pic Toggle -->
+
+        <div id="addPicContent" class="display-none w-100p">
+          <div class="flex flex-between">
+            <p class="fontnormal-20 grey-250">เพิ่มรูป</p>
+            <img
+              id="closeAddPic"
+              src="../assets/icons/closeIcon.svg"
+              alt="closeIcon"
+            />
+          </div>
+
+          <div class="flex flex-center align-center">
+            <div>
+              <img
+                class="mg-3 w-150"
+                src="../assets/images/addcarPic/front-right.svg"
+                alt=""
+              />
+              <img
+                class="mg-3 w-150"
+                src="../assets/images/addcarPic/back-left.svg"
+                alt=""
+              />
+              <img
+                class="mg-3 w-150"
+                src="../assets/images/addcarPic/infrint-left.svg"
+                alt=""
+              />
+              <img
+                class="mg-3 w-150"
+                src="../assets/images/addcarPic/infront-right.svg"
+                alt=""
+              />
+              <img
+                class="mg-3 w-150"
+                src="../assets/images/addcarPic/mile-number.svg"
+                alt=""
+              />
+              <img
+                class="mg-3 w-150"
+                src="../assets/images/addcarPic/car-machine.svg"
+                alt=""
+              />
+              <img
+                class="mg-3 w-150"
+                src="../assets/images/addcarPic/back.svg"
+                alt=""
+              />
+              <img
+                class="mg-3 w-150"
+                src="../assets/images/addcarPic/vat-info.svg"
+                alt=""
+              />
+
+              <div
+                class="border-button radius-16 mg-3 w-150 h-90 flex flex-center align-center"
+              >
+                <p class="grey-100 fontnormal-14">+ เพิ่มรูป</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end uoload pic Toggle -->
+        <div id="openAddAds">
+          <div class="flex mgt-20 gap-10 align-center">
+            <div
+              class="w-88 h-90 radius-24 bg-grey-800 flex flex-center align-center"
+            >
+              <img src="../assets/icons/text-align-left.svg" alt="" />
+            </div>
+            <p class="fontnormal-18 grey-250">เพิ่มคำโฆษณา</p>
+          </div>
+        </div>
+
+        <!-- Ads Toggle  -->
+        <div class="display-none" id="addAdsContent">
+          <div>
+            <div class="flex flex-between">
+              <p class="fontnormal-20 grey-250">add title</p>
+              <img
+                src="../assets/icons/closeIcon.svg"
+                alt="closeIcon"
+                id="closeAddsContent"
+              />
+            </div>
+            <div class="w-90p bg-grey-800 h-114 pdt-10 pdl-16 pdr-16 radius-16">
+              <p class="grey-250">max 100 chars</p>
+            </div>
+          </div>
+
+          <div>
+            <p class="fontnormal-20 grey-250">add description</p>
+            <div class="w-90p bg-grey-800 h-114 pdt-10 pdl-16 pdr-16 radius-16">
+              <p class="grey-250">max 300 chars</p>
+            </div>
+          </div>
+        </div>
+        <!-- end Ads Toggle  -->
+
+        <div>
+          <p class="fontnormal-18 grey-250">ลดราคา</p>
+          <div class="bg-grey-800 w-90 radius-24 pdt-16 pdb-16 pdl-24 pdr-16">
+            <p class="grey-250 fontnormal-14 mg-0">199,000 บาท</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section
+      class="h-120 w-100p bg-grey-800 flex flex-center align-center gap-20 mgt-20"
+    >
+      <div
+        class="w-150 h-48 bg-grey-400 radius-16 align-center flex flex-center"
+      >
+        <p class="fontnormal-20 grey-100">ยกเลิก</p>
+      </div>
+
+      <div
+        class="w-150 h-48 bg-orange-45 radius-16 align-center flex flex-center"
+      >
+        <p class="fontnormal-20 grey-100">ยืนยัน</p>
+      </div>
+    </section>
+
+    <script src="../assets/javascript/toggle.js"></script>
+  </body>
+</html>

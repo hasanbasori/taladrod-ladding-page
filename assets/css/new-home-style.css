@@ -122,120 +122,119 @@
 /* Background Color */
 
 .bg-grey-50 {
-   background-color: #fafafa;
- }
- .bg-grey-100 {
-   background-color: #ececec;
- }
- .bg-grey-150 {
-   background-color: #dfdfdf;
- }
- .bg-grey-200 {
-   background-color: #d2d2d2;
- }
- .bg-grey-250 {
-   background-color: #b9b9b9;
- }
- .bg-grey-300 {
-   background-color: #acacac;
- }
- .bg-grey-350 {
-   background-color: #9f9f9f;
- }
- .bg-grey-400 {
-   background-color: #939393;
- }
- .bg-grey-450 {
-   background-color: #868686;
- }
- .bg-grey-500 {
-   background-color: #797979;
- }
- .bg-grey-550 {
-   background-color: #6c6c6c;
- }
- .bg-grey-600 {
-   background-color: #606060;
- }
- .bg-grey-650 {
-   background-color: #535353;
- }
- .bg-grey-700 {
-   background-color: #464646;
- }
- .bg-grey-750 {
-   background-color: #393939;
- }
- .bg-grey-800 {
-   background-color: #2d2d2d;
- }
- .bg-grey-850 {
-   background-color: #202020;
- }
- .bg-grey-900 {
-   background-color: #1b1b1a;
- }
- .bg-green-400 {
-   background-color: #6fcf97;
- }
- .bg-green-500 {
-   background-color: #27ae60;
- }
- .bg-green-600 {
-   background-color: #219653;
- }
- .bg-natural-black {
-   background-color: #060606;
- }
- .bg-natural-white {
-   background-color: #ffffff;
- }
- .bg-yellow-500 {
-   background-color: #f2c94c;
- }
- .bg-orange-45 {
-   background-color: rgba(239, 118, 42, 0.45);
- }
- .bg-orange-100 {
-   background-color: #fdf0e7;
- }
- .bg-orange-200 {
-   background-color: #fad1b8;
- }
- .bg-orange-300 {
-   background-color: #f6b389;
- }
- .bg-orange-400 {
-   background-color: #f29459;
- }
- .bg-orange-500 {
-   background-color: #ef782d;
- }
- .bg-orange-600 {
-   background-color: #a40101;
- }
- .bg-orange-700 {
-   background-color: #a6480d;
- }
- .bg-orange-800 {
-   background-color: #763309;
- } /* Fixed a typo in class name */
- .bg-orange-900 {
-   background-color: #471f05;
- }
- .bg-blue-400 {
-   background-color: #8ab7f5;
- }
- .bg-blue-500 {
-   background-color: #5b9bf1;
- }
- .bg-blue-600 {
-   background-color: #2f80ed;
- }
- .bg-red-600 {
-   background-color: #a40101;
- }
- 
+  background-color: #fafafa;
+}
+.bg-grey-100 {
+  background-color: #ececec;
+}
+.bg-grey-150 {
+  background-color: #dfdfdf;
+}
+.bg-grey-200 {
+  background-color: #d2d2d2;
+}
+.bg-grey-250 {
+  background-color: #b9b9b9;
+}
+.bg-grey-300 {
+  background-color: #acacac;
+}
+.bg-grey-350 {
+  background-color: #9f9f9f;
+}
+.bg-grey-400 {
+  background-color: #939393;
+}
+.bg-grey-450 {
+  background-color: #868686;
+}
+.bg-grey-500 {
+  background-color: #797979;
+}
+.bg-grey-550 {
+  background-color: #6c6c6c;
+}
+.bg-grey-600 {
+  background-color: #606060;
+}
+.bg-grey-650 {
+  background-color: #535353;
+}
+.bg-grey-700 {
+  background-color: #464646;
+}
+.bg-grey-750 {
+  background-color: #393939;
+}
+.bg-grey-800 {
+  background-color: #2d2d2d;
+}
+.bg-grey-850 {
+  background-color: #202020;
+}
+.bg-grey-900 {
+  background-color: #1b1b1a;
+}
+.bg-green-400 {
+  background-color: #6fcf97;
+}
+.bg-green-500 {
+  background-color: #27ae60;
+}
+.bg-green-600 {
+  background-color: #219653;
+}
+.bg-natural-black {
+  background-color: #060606;
+}
+.bg-natural-white {
+  background-color: #ffffff;
+}
+.bg-yellow-500 {
+  background-color: #f2c94c;
+}
+.bg-orange-45 {
+  background-color: rgba(239, 118, 42, 0.45);
+}
+.bg-orange-100 {
+  background-color: #fdf0e7;
+}
+.bg-orange-200 {
+  background-color: #fad1b8;
+}
+.bg-orange-300 {
+  background-color: #f6b389;
+}
+.bg-orange-400 {
+  background-color: #f29459;
+}
+.bg-orange-500 {
+  background-color: #ef782d;
+}
+.bg-orange-600 {
+  background-color: #a40101;
+}
+.bg-orange-700 {
+  background-color: #a6480d;
+}
+.bg-orange-800 {
+  background-color: #763309;
+} /* Fixed a typo in class name */
+.bg-orange-900 {
+  background-color: #471f05;
+}
+.bg-blue-400 {
+  background-color: #8ab7f5;
+}
+.bg-blue-500 {
+  background-color: #5b9bf1;
+}
+.bg-blue-600 {
+  background-color: #2f80ed;
+}
+.bg-red-600 {
+  background-color: #a40101;
+}
 
 body,
 html {
@@ -347,6 +346,7 @@ html {
   z-index: 99;
   width: 100%;
 }
+
 .profile-new-img {
   width: 60px;
   height: 60px;

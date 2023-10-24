@@ -1,0 +1,707 @@
+/* Display */
+
+.display-none {
+  display: none;
+}
+.display-block {
+  display: block;
+}
+.display-inline-block {
+  display: inline-block;
+}
+
+/* Gab Classes */
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+/* Padding Classes */
+.pd-1 {
+  padding: 1px;
+}
+
+.pd-2 {
+  padding: 2px;
+}
+
+.pd-3 {
+  padding: 3px;
+}
+
+.pd-15 {
+  padding: 15px;
+}
+
+/* Padding Top Classes */
+
+.pdt-1 {
+  padding-top: 1px;
+}
+
+.pdt-2 {
+  padding-top: 2px;
+}
+
+.pdt-3 {
+  padding-top: 3px;
+}
+
+.pdt-10 {
+  padding-top: 10px;
+}
+
+.pdt-16 {
+  padding-top: 16px;
+}
+.pdt-48 {
+  padding-top: 48px;
+}
+
+/* Padding Bottoms Classes */
+
+.pdb-16 {
+  padding-bottom: 16px;
+}
+
+.pdb-24 {
+  padding-bottom: 24px;
+}
+
+.pdb-40 {
+  padding-bottom: 40px;
+}
+
+/* Padding Left Classes */
+
+.pdl-16 {
+  padding-left: 16px;
+}
+.pdl-24 {
+  padding-left: 24px;
+}
+
+/* Padding Right Classes */
+.pdr-16 {
+  padding-right: 16px;
+}
+.pdr-10 {
+  padding-right: 10px;
+}
+
+/* Margin Classes */
+.mg-auto {
+  margin: auto;
+}
+.mg-0 {
+  margin: 0px;
+}
+.mg-1 {
+  margin: 1px;
+}
+
+.mg-2 {
+  margin: 2px;
+}
+
+.mg-3 {
+  margin: 3px;
+}
+
+.mg-5 {
+  margin: 5px;
+}
+.mg-7 {
+  margin: 7px;
+}
+.mg-10 {
+  margin: 10px;
+}
+
+/* Margin  Left Classes */
+
+.mgl-10 {
+  margin-left: 10px;
+}
+.mgl-20 {
+  margin-left: 24px;
+}
+/* Margin  Right Classes */
+
+.mgr-15 {
+  margin-right: 15px;
+}
+.mgr-20 {
+  margin-right: 20px;
+}
+
+.mgr-24 {
+  margin-right: 24px;
+}
+
+/* Margin  Right Classes */
+
+.mgt-5 {
+  margin-top: 5px;
+}
+.mgt-10 {
+  margin-top: 10px;
+}
+
+.mgt-20 {
+  margin-top: 20px;
+}
+
+.mgt-40 {
+  margin-top: 40px;
+}
+
+.mgr-24 {
+  margin-right: 24px;
+}
+
+/* Margin  Bottom Classes */
+
+.mgb-20 {
+  margin-bottom: 20px;
+}
+
+/* Flex Classes */
+.flex {
+  display: flex;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.white-space-nowrap {
+  white-space: nowrap;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-around {
+  justify-content: space-around;
+}
+
+.flex-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: end;
+}
+
+.self-end {
+  align-self: end;
+}
+
+.block {
+  display: block;
+}
+
+/* Position Classes */
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.top-50p {
+  top: 50%;
+}
+
+.left-50p {
+  top: 50%;
+}
+
+.transform-center {
+  transform: translate(70%, -50%);
+}
+
+.bt-10 {
+  bottom: 10px;
+}
+
+.l-10 {
+  left: 10px;
+}
+/* Width Classes */
+
+.w-auto {
+  width: auto;
+}
+.w-100p {
+  width: 100%;
+}
+
+.w-98p {
+  width: 98%;
+}
+
+.w-56 {
+  width: 56px;
+}
+
+.w-88 {
+  width: 88px;
+}
+
+.w-90p {
+  width: 90%;
+}
+
+.w-24 {
+  width: 24px;
+}
+
+.w-120 {
+  width: 120px;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.w-163 {
+  width: 163px;
+}
+
+.w-180 {
+  width: 180px;
+}
+
+.min-w-180 {
+  min-width: 180px;
+}
+
+/* Hight Classes */
+
+.h-auto {
+  height: auto;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+.h-100p {
+  height: 100%;
+}
+.h-48 {
+  height: 48px;
+}
+.h-52 {
+  height: 52px;
+}
+
+.h-58 {
+  height: 58px;
+}
+
+.h-82 {
+  height: 82px;
+}
+
+.h-90 {
+  height: 90px;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+.h-114 {
+  height: 114px;
+}
+
+.h-120 {
+  height: 120px;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.h-140 {
+  height: 140px;
+}
+
+.h-320 {
+  height: 320px;
+}
+
+/* Font Size Classes */
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+/* Font size Classes */
+.fontnormal-64 {
+  font-size: 64px;
+  font-family: 'kanit';
+}
+.fontnormal-32 {
+  font-size: 32px;
+  font-family: 'kanit';
+}
+.fontnormal-36 {
+  font-size: 36px;
+  font-family: 'kanit';
+}
+.fontnormal-10 {
+  font-size: 10px;
+  font-family: 'kanit';
+}
+.fontnormal-14 {
+  font-size: 14px;
+  font-family: 'kanit';
+}
+.fontnormal-15 {
+  font-size: 15px;
+  font-family: 'kanit';
+}
+
+.fontnormal-16 {
+  font-size: 16px;
+  font-family: 'kanit';
+}
+.fontnormal-18 {
+  font-size: 20px;
+  font-family: 'kanit';
+}
+
+.fontnormal-20 {
+  font-size: 20px;
+  font-family: 'kanit';
+}
+.fontnormal-28 {
+  font-size: 28px;
+  font-family: 'kanit';
+}
+.fontnormal-22 {
+  font-size: 22px;
+  font-family: 'kanit';
+}
+.fontnormal-24 {
+  font-size: 24px;
+  font-family: 'kanit';
+}
+
+.grey-50 {
+  color: #fafafa;
+}
+.grey-100 {
+  color: #ececec;
+}
+.grey-150 {
+  color: #dfdfdf;
+}
+.grey-200 {
+  color: #d2d2d2;
+}
+.grey-250 {
+  color: #b9b9b9;
+}
+.grey-300 {
+  color: #acacac;
+}
+.grey-350 {
+  color: #9f9f9f;
+}
+.grey-400 {
+  color: #939393;
+}
+.grey-450 {
+  color: #868686;
+}
+.grey-500 {
+  color: #797979;
+}
+.grey-550 {
+  color: #6c6c6c;
+}
+.grey-600 {
+  color: #606060;
+}
+.grey-650 {
+  color: #535353;
+}
+.grey-700 {
+  color: #464646;
+}
+.grey-750 {
+  color: #393939;
+}
+.grey-800 {
+  color: #2d2d2d;
+}
+.grey-850 {
+  color: #202020;
+}
+.grey-900 {
+  color: #1b1b1a;
+}
+.grey-secondary {
+  color: #242424;
+}
+.green-400 {
+  color: #6fcf97;
+}
+.green-500 {
+  color: #27ae60;
+}
+.green-600 {
+  color: #219653;
+}
+.natural-black {
+  color: #060606;
+}
+.natural-white {
+  color: #ffffff;
+}
+.yellow-500 {
+  color: #f2c94c;
+}
+.orange-45 {
+  color: rgba(239, 118, 42, 0.45);
+}
+.orange-100 {
+  color: #fdf0e7;
+}
+.orange-200 {
+  color: #fad1b8;
+}
+.orange-300 {
+  color: #f6b389;
+}
+.orange-400 {
+  color: #f29459;
+}
+.orange-500 {
+  color: #ef782d;
+}
+.orange-600 {
+  color: #d55c10;
+}
+.orange-700 {
+  color: #a6480d;
+}
+.orange-800 {
+  color: #763309;
+}
+.orange-900 {
+  color: #471f05;
+}
+.blue-400 {
+  color: #8ab7f5;
+}
+.blue-500 {
+  color: #5b9bf1;
+}
+.blue-600 {
+  color: #2f80ed;
+}
+.red-400 {
+  color: #eb5757;
+}
+.red-500 {
+  color: #ec222a;
+}
+.red-600 {
+  color: #a40101;
+}
+
+/* Background Color */
+
+.bg-grey-50 {
+  background-color: #fafafa;
+}
+.bg-grey-100 {
+  background-color: #ececec;
+}
+.bg-grey-150 {
+  background-color: #dfdfdf;
+}
+.bg-grey-200 {
+  background-color: #d2d2d2;
+}
+.bg-grey-250 {
+  background-color: #b9b9b9;
+}
+.bg-grey-300 {
+  background-color: #acacac;
+}
+.bg-grey-350 {
+  background-color: #9f9f9f;
+}
+.bg-grey-400 {
+  background-color: #939393;
+}
+.bg-grey-450 {
+  background-color: #868686;
+}
+.bg-grey-500 {
+  background-color: #797979;
+}
+.bg-grey-550 {
+  background-color: #6c6c6c;
+}
+.bg-grey-600 {
+  background-color: #606060;
+}
+.bg-grey-650 {
+  background-color: #535353;
+}
+.bg-grey-700 {
+  background-color: #464646;
+}
+.bg-grey-750 {
+  background-color: #393939;
+}
+.bg-grey-800 {
+  background-color: #2d2d2d;
+}
+.bg-grey-850 {
+  background-color: #202020;
+}
+.bg-grey-secondary {
+  background-color: #242424;
+}
+.bg-grey-900 {
+  background-color: #1b1b1a;
+}
+.bg-green-400 {
+  background-color: #6fcf97;
+}
+.bg-green-500 {
+  background-color: #27ae60;
+}
+.bg-green-600 {
+  background-color: #219653;
+}
+.bg-natural-black {
+  background-color: #060606;
+}
+.bg-natural-white {
+  background-color: #ffffff;
+}
+.bg-yellow-500 {
+  background-color: #f2c94c;
+}
+.bg-orange-45 {
+  background-color: rgba(239, 118, 42, 0.45);
+}
+.bg-orange-100 {
+  background-color: #fdf0e7;
+}
+.bg-orange-200 {
+  background-color: #fad1b8;
+}
+.bg-orange-300 {
+  background-color: #f6b389;
+}
+.bg-orange-400 {
+  background-color: #f29459;
+}
+.bg-orange-500 {
+  background-color: #ef782d;
+}
+.bg-orange-600 {
+  background-color: #a40101;
+}
+.bg-orange-700 {
+  background-color: #a6480d;
+}
+.bg-orange-800 {
+  background-color: #763309;
+} /* Fixed a typo in class name */
+.bg-orange-900 {
+  background-color: #471f05;
+}
+.bg-blue-400 {
+  background-color: #8ab7f5;
+}
+.bg-blue-500 {
+  background-color: #5b9bf1;
+}
+.bg-blue-600 {
+  background-color: #2f80ed;
+}
+.bg-red-600 {
+  background-color: #a40101;
+}
+.bg-black-clear {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Border  */
+
+.radius-16 {
+  border-radius: 16px;
+}
+.radius-24 {
+  border-radius: 24px;
+}
+
+.border-button {
+  border: 1px solid #b9b9b9;
+}
+
+/* Overflow  */
+
+.overflow-scroll {
+  overflow-y: scroll;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+/* z-index  */
+
+/* m= minus */
+.z-index-m1 {
+  z-index: -1;
+}

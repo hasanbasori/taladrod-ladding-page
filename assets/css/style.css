@@ -199,8 +199,8 @@ body {
       337.9deg,
       rgba(72, 46, 30, 0.25) 3.55%,
       rgba(97, 79, 68, 0.25) 64.62%
-    ),
-    #ffffff;
+    );
+  /* #ffffff; */
 }
 .filter-orange {
   filter: invert(67%) sepia(59%) saturate(4013%) hue-rotate(341deg)
@@ -339,6 +339,9 @@ body {
 }
 .pdr-2 {
   padding-right: 5%;
+}
+.pd-20 {
+  padding: 20px;
 }
 .bgcarprofile {
   width: 100%;
@@ -681,8 +684,6 @@ body {
   right: 5%;
   top: 3%;
 }
-
-
 
 .modalbodyimg img {
   height: 100%;
@@ -2713,4 +2714,3 @@ input[name='radioGroup']:checked + label {
 .justify-between {
   justify-content: space-between;
 }
-
